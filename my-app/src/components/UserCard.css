@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.action__container {
+    text-align: center;
+}
+
+.action__container--btn {
+    width: 45%;
+    min-width: 60px;
+    margin: 3px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: rgb(121, 94, 147);
+    color: white;
+}
+
+.action__container--btn:hover {
+    background-color: rgb(87, 165, 139);
+    transition: 0.5s;
+}

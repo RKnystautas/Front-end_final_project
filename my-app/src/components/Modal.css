@@ -1,0 +1,93 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.reg_btn {
+  width: 45%;
+  min-width: 60px;
+  margin: 3px;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: rgb(121, 94, 147);
+  color: white;
+}
+
+.reg_btn:hover {
+  background-color: rgb(72, 133, 102);
+}
+
+#cancelBtn {
+  width: 45%;
+  min-width: 60px;
+  margin: 3px;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: rgb(121, 94, 147);
+  color: white;
+}
+
+#cancelBtn:hover {
+
+  background-color: rgb(156, 81, 81);
+
+}

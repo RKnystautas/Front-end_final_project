@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(209, 236, 245);
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.btn {
+  width: 300px;
+  height: 3rem;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: rgb(121, 94, 147);
+  color: white;
+  font-size: 1rem;
+}
+
+.table {
+  width: 90%;
+  margin: auto;
+  border: 1px solid rgb(186, 0, 0);
+  border-collapse: collapse;
+  border-radius: 0.3em;
+  overflow: hidden;
+  background-color: rgb(70, 152, 195);
+}
+
+.table thead {
+  height: 2rem;
+  color: rgb(191, 191, 191);
+  background-color: rgb(26, 88, 168);
+}
+
+.table td {
+  padding: 5px;
+  color: rgb(236, 236, 236);
+}
+
+.table * {
+  border: 1px solid black;
+  padding: 5px;
+  width: 15%;
+}
